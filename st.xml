@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <obj>w32api/crt2.o</obj>
+  <obj>head/consolehead.o</obj>
+  <obj>head/head.o</obj>
+  <lib>w32api/libmingw32.a</lib>
+  <lib>w32api/libgcc.a</lib>
+  <lib>w32api/libmsvcrt.a</lib>
+  <lib>w32api/libkernel32.a</lib>
+  <lib>w32api/libuser32.a</lib>
+  <lib>w32api/libadvapi32.a</lib>
+  <lib>w32api/libshell32.a</lib>
+  <jar>C:\Users\Omage Micheal\Documents\IpNaming\dist\IpNaming.jar</jar>
+  <outfile>C:\Users\Omage Micheal\Documents\IpNaming\dist\D ipChanger.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest>C:\Users\Omage Micheal\Documents\IpNaming\ipNaming.manifest</manifest>
+  <icon>C:\Users\Omage Micheal\Documents\personnal projects\db_logo.ico</icon>
+  <classPath>
+    <mainClass>ipnaming.Dchanger</mainClass>
+    <cp>lib/eclipselink.jar</cp>
+    <cp>lib/javax.persistence_2.1.0.v201304241213.jar</cp>
+    <cp>lib/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar</cp>
+    <cp>lib/cmu_time_awb.jar</cp>
+    <cp>lib/cmu_us_kal.jar</cp>
+    <cp>lib/cmudict04.jar</cp>
+    <cp>lib/cmulex.jar</cp>
+    <cp>lib/cmutimelex.jar</cp>
+    <cp>lib/en_us.jar</cp>
+    <cp>lib/freetts.jar</cp>
+    <cp>lib/freetts-jsapi10.jar</cp>
+    <cp>lib/jsapi.jar</cp>
+    <cp>lib/mbrola.jar</cp>
+    <cp>lib/mail.jar</cp>
+    <cp>lib/dsn.jar</cp>
+    <cp>lib/imap.jar</cp>
+    <cp>lib/mailapi.jar</cp>
+    <cp>lib/pop3.jar</cp>
+    <cp>lib/smtp.jar</cp>
+  </classPath>
+  <jre>
+    <path>jre/jre1.8.0_271</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
